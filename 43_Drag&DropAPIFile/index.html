@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/246c6d8809.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>DRag & Drop + API File</title>
+  </head>
+  <body>
+    <form class="form" method="POST" enctype="multipart/form-data">
+      <div>
+        <input class="hide" type="file" name="file" id="file" />
+
+        <div class="drop-zone" id="drop-zone">
+          <i class="fas fa-file-upload"></i>
+          <p class="drop-zone__text">Drop file or click to Upload file</p>
+        </div>
+      </div>
+
+      <input
+        type="submit"
+        value="Upload"
+        class="form-button"
+        id="upload-button"
+      />
+    </form>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

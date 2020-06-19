@@ -1,0 +1,18 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  background-color: cadetblue;
+}
+
+.smile {
+  width: 50px;
+}
+
+.drop-zone {
+  height: 200px;
+  width: 80%;
+  border: 2px dotted black;
+  margin: 3rem auto;
+  text-align: center;
+  font-size: 2em;
+}

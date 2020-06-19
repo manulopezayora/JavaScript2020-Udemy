@@ -1,0 +1,51 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: antiquewhite;
+  box-sizing: border-box;
+  background-color: teal;
+}
+
+.container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.title {
+  margin: 0 0 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.tasks:first-child {
+  margin-right: 1rem;
+}
+
+.tasks {
+  width: 30%;
+  padding: 1rem;
+  background-color: rgb(48, 166, 221);
+  border: 1px solid black;
+  min-height: 130px;
+}
+
+.task {
+  background-color: salmon;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  cursor: move;
+}
+
+.task:first-child {
+  border-top: 1px solid black;
+}
+
+.task:last-child {
+  border: none;
+}
+
+.active {
+  background-color: #fff;
+  color: #000;
+}

@@ -1,0 +1,31 @@
+:root {
+  --dark: #2a2a2a;
+  --light: #f3f3f3;
+}
+
+body {
+  box-sizing: border-box;
+  padding-bottom: 100rem;
+  background-color: var(--dark);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--light);
+  text-align: center;
+}
+
+.form {
+  width: 90%;
+  text-align: center;
+  padding: 10px;
+}
+
+.form__field {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.result {
+  font-size: 3rem;
+}

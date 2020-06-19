@@ -1,0 +1,25 @@
+:root {
+  --dark: #2a2a2a;
+  --light: #f3f3f3;
+}
+
+body {
+  box-sizing: border-box;
+  padding-bottom: 100rem;
+  background-color: var(--dark);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+  color: var(--light);
+  text-align: center;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: var(--light);
+  }
+  .title {
+    color: var(--dark);
+  }
+}

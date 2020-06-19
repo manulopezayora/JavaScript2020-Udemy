@@ -1,0 +1,28 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+.table {
+  margin-top: 10px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table__title {
+  background-color: steelblue;
+  color: aliceblue;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+tr:nth-child(even) {
+  background-color: lightblue;
+}

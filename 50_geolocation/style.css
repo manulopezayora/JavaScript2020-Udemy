@@ -1,0 +1,17 @@
+body {
+  box-sizing: border-box;
+  background-color: #222;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: #f3f3f3;
+  overflow: auto;
+}
+
+.button {
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}

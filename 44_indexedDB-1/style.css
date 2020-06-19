@@ -1,0 +1,35 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  background-color: #222;
+  color: #f3f3f3;
+}
+
+.form {
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+label {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: salmon;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.tasks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  padding: 25px;
+}

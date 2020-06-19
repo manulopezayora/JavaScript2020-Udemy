@@ -1,0 +1,26 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+.form {
+  width: 90%;
+  padding: 10px;
+}
+
+.form__field {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.info {
+  align-items: center;
+  margin-left: 10px;
+}
+
+.info p {
+  margin: 10px;
+}

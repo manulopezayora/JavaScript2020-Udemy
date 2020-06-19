@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>IndexedDB III - Delete data</title>
+  </head>
+  <body>
+    <form id="form" class="form">
+      <label for="task">Task</label>
+      <input type="text" name="task" />
+      <select name="priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <!-- data-action es un atributo personalizado para usar en el crud. Ese parámetro es el que se usará para añadir o actualizar datos -->
+      <button class="button" name="button" data-action="add">Add Task</button>
+    </form>
+    <div class="tasks" id="tasks"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>
